@@ -1,0 +1,28 @@
+.button{
+    text-align: center;
+    margin: 50px;
+    color: black;
+    background: white;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.button-1{
+    background: white;
+    animation-name:click;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+
+@keyframes click{
+    0%{
+        background: white;
+    }
+
+    100%{
+        background: green;
+    }
+}
+    
